@@ -243,7 +243,7 @@ class App extends Component {
                   <h2 className="text-center">
                     {!!companyName && companyName + " (Past 6 months)"}
                   </h2>
-                  <ChartLineGraph
+             <ChartLineGraph
                     title={enteredSymbol}
                     chartLabels={chartDates}
                     chartData={chartCloses}
